@@ -1,0 +1,53 @@
+{
+  "name": "cnpj-cpf-utils",
+  "version": "0.0.0",
+  "description": "Straight forward JavaScript package to handle CPF (Brazilian personal ID) and CNPJ (Brazilian employer ID) data.",
+  "license": "MIT",
+  "author": {
+    "name": "Julio L. Muller",
+    "url": "https://github.com/juliolmuller"
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
+  "keywords": [
+    "cpf",
+    "cnpj",
+    "validar",
+    "validador",
+    "validate",
+    "validation",
+    "formatar",
+    "format",
+    "gerar",
+    "gerador",
+    "generate",
+    "generator",
+    "pt-br",
+    "br"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juliolmuller/cnpj-cpf-utils-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/juliolmuller/cnpj-cpf-utils-js/issues"
+  },
+  "homepage": "https://github.com/juliolmuller/cnpj-cpf-utils-js#readme",
+  "main": "./build/index.cjs",
+  "types": "./build/index.d.ts",
+  "exports": {
+    ".": {
+      "require": {
+        "default": "./build/index.cjs"
+      },
+      "import": {
+        "default": "./build/index.mjs"
+      }
+    }
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  }
+}
